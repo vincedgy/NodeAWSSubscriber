@@ -1,0 +1,40 @@
+{
+  "name": "node-aws-subscriber",
+  "version": "1.0.0",
+  "description": "A nodeJs app that talk to (and subscribe) to an AWS SNS Queue with Reactive Programmation style using RxJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincedgy/NodeAWSSubscriber.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "AWS",
+    "SNS",
+    "RxJS"
+  ],
+  "author": "VinceDgy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vincedgy/NodeAWSSubscriber/issues"
+  },
+  "homepage": "https://github.com/vincedgy/NodeAWSSubscriber#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "merge2": "^1.0.3",
+    "mocha": "^3.3.0",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "@types/node": "^7.0.18",
+    "aws-sdk": "^2.49.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "os": "^0.1.1",
+    "tsconfig": "^6.0.0"
+  }
+}
