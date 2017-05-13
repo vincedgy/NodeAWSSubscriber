@@ -17,6 +17,9 @@
             "es6"
         ]
     }, 
+    "files" : [
+        "./gulpfile.ts"
+    ],
     "include": [
         "*",
         "src/**/*"
